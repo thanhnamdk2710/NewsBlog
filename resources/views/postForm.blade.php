@@ -1,7 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Mr. Nam
- * Date: 10/12/17
- * Time: 4:48 PM
- */
+<form action="{{route('postForm')}}" method="post">
+    {{ csrf_field() }}
+    <input type="text" name="yourname">
+    <input type="submit">
+</form>

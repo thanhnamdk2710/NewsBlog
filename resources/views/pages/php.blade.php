@@ -1,7 +1,7 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Mr. Nam
- * Date: 10/12/17
- * Time: 11:26 PM
- */
+@extends('layouts.master')
+@section('Content')
+    <?php $khoahoc = array('PHP', 'IOS', 'JAVA') ?>
+    @foreach($khoahoc as $value)
+        {{$value}}
+    @endforeach
+@endsection
